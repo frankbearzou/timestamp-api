@@ -6,20 +6,20 @@
 
 ## Installation Instructions
 1. clone this repository and enter to the cloned directory:
-```bash
-git clone https://github.com/frankbearzou/timestamp-api
-cd timestamp-api
-```
+    ```bash
+    git clone https://github.com/frankbearzou/timestamp-api
+    cd timestamp-api
+    ```
 2. install the depend npm packages:
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 3. run program:
-```bash
-npm run start
-```
-or
-```bash
-node ./bin/www
-```
+    ```bash
+    npm run start
+    ```
+    or
+    ```bash
+    node ./bin/www
+    ```
 4. Checking the web by clicking [this link](http:localhost:3000/), or inputing `http:localhost:3000/` in Chrome browser.
