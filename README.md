@@ -5,20 +5,23 @@
 - If it does not contain a date or Unix timestamp, it returns null for those properties.  
 
 ## Installation Instructions
-1. clone this repository and enter to the cloned directory:
+1. clone this repository and enter to the cloned directory:  
+
     ```bash
     git clone https://github.com/frankbearzou/timestamp-api
     cd timestamp-api
     ```
-2. install the depend npm packages:
+2. install the depend npm packages:  
+
     ```bash
     npm install
     ```
 3. run program:
+
     ```bash
     npm run start
     ```
-    or
+    or  
     ```bash
     node ./bin/www
     ```
