@@ -12,10 +12,10 @@ block content
         li If it does not contain a date or Unix timestamp, it returns null for those properties.
     h3 Example usage:
     code
-      a(href='http://localhost:3000/December%2015,%202015' target='_blank') http://localhost:3000/December%2015,%202015
+      a(href='/December%2015,%202015' target='_blank') http://localhost:5000/December%2015,%202015
     br
     code
-      a(href='http://localhost:3000/1450137600' target='_blank') http://localhost:3000/1450137600
+      a(href='/1450137600' target='_blank') http://localhost:5000/1450137600
     h3 Example output:
     code
       pre.
@@ -23,3 +23,5 @@ block content
           "unix": 1450137600,
           "natural": "December 15, 2015"
         }
+    p check out source code at:
+      a(href='https://github.com/frankbearzou/timestamp-api' target='_blank') https://github.com/frankbearzou/timestamp-api
